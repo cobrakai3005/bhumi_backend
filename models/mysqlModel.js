@@ -268,6 +268,11 @@ CREATE TABLE IF NOT EXISTS categories (
 );
 
 
+
+
+
+
+
 `;
 
 export default sql;

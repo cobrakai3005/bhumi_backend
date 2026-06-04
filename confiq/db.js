@@ -40,7 +40,7 @@
 import mysql from "mysql2/promise";
 import dotenv from "dotenv";
 import sql from "../models/mysqlModel.js";
-
+import fs from "fs/promises";
 dotenv.config();
 
 const pool = mysql.createPool({
